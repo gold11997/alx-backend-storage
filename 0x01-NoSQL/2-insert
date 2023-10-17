@@ -1,2 +1,2 @@
-// creates or uses the database my_db
-use my_db
+// script that inserts a document in the collection school
+db.school.insert( { name: "Holberton school" } )
